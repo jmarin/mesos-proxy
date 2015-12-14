@@ -1,11 +1,11 @@
-package mesos.dns.client
+package mesos.proxy
 
 import akka.actor.ActorSystem
 import akka.event.{ Logging, LoggingAdapter }
 import akka.http.scaladsl.Http
 import akka.stream.ActorMaterializer
 import com.typesafe.config.ConfigFactory
-import mesos.dns.client.http.HttpService
+import mesos.proxy.http.HttpService
 
 import scala.concurrent.ExecutionContextExecutor
 

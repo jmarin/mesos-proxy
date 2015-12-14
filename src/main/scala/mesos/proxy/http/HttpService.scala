@@ -1,4 +1,4 @@
-package mesos.dns.client.http
+package mesos.proxy.http
 
 import java.net.InetAddress
 import java.time.Instant
@@ -10,8 +10,8 @@ import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport._
 import akka.stream.ActorMaterializer
 import akka.http.scaladsl.server.Directives._
 import com.typesafe.config.Config
-import mesos.dns.client.model.Status
-import mesos.dns.client.protocol.MesosProxyJsonProtocol
+import mesos.proxy.model.Status
+import mesos.proxy.protocol.MesosProxyJsonProtocol
 import scala.concurrent.ExecutionContextExecutor
 import spray.json._
 

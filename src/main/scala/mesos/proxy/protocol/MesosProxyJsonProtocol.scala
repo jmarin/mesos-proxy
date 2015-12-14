@@ -1,6 +1,6 @@
-package mesos.dns.client.protocol
+package mesos.proxy.protocol
 
-import mesos.dns.client.model.Status
+import mesos.proxy.model.Status
 import spray.json.DefaultJsonProtocol
 
 trait MesosProxyJsonProtocol extends DefaultJsonProtocol {

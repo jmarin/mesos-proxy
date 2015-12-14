@@ -4,8 +4,6 @@ version := "1.0"
 
 scalaVersion := "2.11.7"
 
-Defaults.itSettings
-
 scalariformSettings
 
 val akkaStreamsVersion = "2.0-M1"
@@ -24,6 +22,6 @@ libraryDependencies ++= Seq(
   "com.typesafe" % "config" % configVersion,
   "org.slf4j" % "slf4j-api" % slf4jVersion,
   "ch.qos.logback" % "logback-classic" % logbackVersion,
-  "org.scalatest" %% "scalatest" % scalatestVersion % "test"
+  "org.scalatest" %% "scalatest" % scalatestVersion % "it, test"
 )
 
